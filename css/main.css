@@ -98,6 +98,49 @@ textarea {
    ========================================================================== */
 
 
+html {
+  box-sizing: border-box;
+  background-color: #525659;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    border: solid 1px purple;
+    background-color: white;
+}
+
+#page {
+    webkit-box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.25);
+    moz-box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.25);
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.25);
+}
+
+.header {
+    background-color: black;
+    color:white;
+    padding: 2em 0em 4em 2em;
+    border: solid 1px green;
+}
+
+#nav {
+border: solid 1px blue;
+float: right;
+padding-right: 2em;
+}
+
+.header h1 {
+    margin: auto;
+   font-family: Arial, sans-serif;
+   font-size: 1.5em;
+   border: solid 1px red;
+   float:left;
+}
 
 
 
