@@ -151,6 +151,11 @@ h2 {
     line-height: 1em;
 }
 
+h3:hover {
+    background-color: white;
+    color: black;
+}
+
 h3 {
     text-align: center;
     font-size: 2em;
@@ -159,6 +164,7 @@ h3 {
     margin-right: 5em;
     margin-top: 2em;
     padding: 0.5em;
+    color: white;
 }
 
 h4 {
@@ -168,10 +174,11 @@ h4 {
 
 
 .line {
-    border-top: solid 1px black;
+    border-top: solid 1px lightgrey;
+    margin-top: 3em;
 }
 
-#about-us, #project, .grid, footer {
+#about-us, #project, .grid {
     margin: 1.5em;
 }
 
@@ -186,6 +193,7 @@ img {
 .grid {
     max-width: 100%;
     overflow: auto;
+    margin-top: 4em;
 }
 
 .grid-bg {
@@ -208,26 +216,30 @@ img {
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 img:hover{
+    opacity: 1.0;
+}
+
+img{
     opacity: 0.5;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:active {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 
