@@ -169,6 +169,11 @@ h4 {
     margin: 0;
 }
 
+
+.line {
+    border-top: solid 1px black;
+}
+
 #about-us, #project, .grid, footer {
     margin: 1.5em;
 }
@@ -234,22 +239,6 @@ footer {
     font-size: 1.35em;
     clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
