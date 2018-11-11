@@ -124,6 +124,7 @@ body {
     top:0;
     left:0;
     width: 100%;
+    z-index: 10;
 }
 
 #nav {
@@ -142,6 +143,7 @@ bottom: 2em;
     background-size: 100%;
     color: white;
     padding: 5em;
+    text-align: center;
 }
 
 h2 {
@@ -157,11 +159,11 @@ h3:hover {
 }
 
 h3 {
-    text-align: center;
+    display: inline-block;
+    width: auto;
     font-size: 2em;
     border: solid 2px white;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin: 0 auto;
     margin-top: 2em;
     padding: 0.5em;
     color: white;
