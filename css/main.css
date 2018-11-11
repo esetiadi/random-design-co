@@ -112,7 +112,7 @@ body {
     margin-left: auto;
     margin-top: 3em;
     background-color: white;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 #page {
@@ -166,22 +166,77 @@ h3 {
 
 h4 {
     font-size: 1.5em;
+    margin: 0;
 }
 
-#about-us {
-    margin-left: 2em;
+#about-us, #project, .grid, footer {
+    margin: 1.5em;
 }
 
-#project {
-    margin-left: 2em;
+p {
+    font-size: 1.3em;
 }
+
+img {
+    max-width: 100%;
+}
+
+.grid {
+    max-width: 100%;
+}
+
+.grid-bg {
+    display: block;
+}
+
+.project {
+    float:left;
+    width: 50%;
+    position: relative;
+    padding: 1px;
+}
+
+.project h4 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
 
 footer {
     text-align: center;
     padding: 1em;
     font-size: 1.35em;
-    border-top: solid 1px grey;
+    clear: both;
 }
+
+
+
 
 
 
